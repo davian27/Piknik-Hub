@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+  body{
+    background-color: black;
+  }
+  .container {
+    width: 90%;
+    margin-inline: auto;
+  }
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .hero .box-hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero .box-hero .box:nth-child(1) h1 {
+    color: white;
+    font-size: 3.5vw;
+    line-height: 1.3;
+    margin-bottom: 20px;
+  }
+  
+  .hero .box-hero .box:nth-child(1) p {
+    line-height: 2;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 450;
+  }
+  
+  .hero .box-hero .box:nth-child(1) button {
+    width: 100px;
+    height: 50px;
+    background-color: #0050b3;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero .box-hero .box:nth-child(1) button:hover {
+    background-color: #053e83;
+    transition: all 0.3s ease;
+  }
+  
+  .hero .box-hero .box:nth-child(2) img {
+    width: 75%;
+    border-radius: 10px;
+  }
+
+/* about */
+.about {
+   display: flex;
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .about-isi h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .about .isi {
+    font-weight: 400px;
+    color: white;
+    margin-left: 40rem;
+    margin-right:40rem;
+    margin-top: 2rem;
+  }
+
+  .foto1{
+    margin-left: 1rem;
+  }
+
+  .foto2{
+    margin-left: 81rem;
+  }
